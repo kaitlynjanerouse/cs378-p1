@@ -1,3 +1,7 @@
 body {
     color: hotpink;
 }
+
+.menu-item {
+    padding-bottom: 20px;
+}
