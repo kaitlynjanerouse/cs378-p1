@@ -8,5 +8,5 @@ body {
 
 .menu-image {
     max-width: 100px;
-    height: auto;
+    max-height: 100px;
 }
