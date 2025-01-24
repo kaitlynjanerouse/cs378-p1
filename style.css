@@ -1,12 +1,79 @@
+/* LOOKS GOOD NOW EXCEPT FONT */
+
 body {
-    color: hotpink;
+    color: black;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5vh;
+    margin-top: 5vh;
+}
+
+.logo {
+    max-width: 15vh;
+    max-height: 15vh;
+}
+
+.first-tag-line{
+    text-align: center;
+    color: rgba(46, 118, 56, 0.543);
+    font: italic 1.75vh 'Apple Chancery', cursive;
+}
+
+.second-tag-line {
+    text-align: center;
+    margin-bottom: 5vh;
 }
 
 .menu-item {
-    padding-bottom: 20px;
+    padding: 2vh;
+    justify-content: center;
 }
 
-.menu-image {
-    max-width: 100px;
-    max-height: 100px;
+.item-image {
+    width: 100%;
+    max-width: 15vh;
+    max-height: 12vh;
+    border-radius: 1vh;
+}
+
+.item-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item-title {
+    font-size: 1.5vh;
+    font-weight: bold;
+}
+
+.item-description {
+    font-size: 1.25vh;
+    padding-top: 1vh;
+    font-weight: 150;
+}
+
+.item-price {
+    font-size: 1.25vh;
+    text-align: left;
+    padding: 0vh;   
+    padding-top: 1vh;
+}
+
+.button-container {
+    font-size: 1.25vh;
+    padding: 0vh;
+    padding-right: 1vh;
+    text-align: right;
+    padding-top: 1vh;
+}
+
+.button-style {
+    background-color: rgba(146, 118, 118, 0.543);
+    border-radius: 1vh;
+    box-shadow: .25vh .25vh .25vh rgba(0, 0, 0, 0.3); 
 }
